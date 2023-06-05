@@ -7,6 +7,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
+        <title>Next Events</title>
+        <meta name="description" content="This will be overwritten" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Component {...pageProps} />
