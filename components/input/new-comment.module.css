@@ -40,3 +40,7 @@
 .form button {
   background-color: white;
 }
+
+.button {
+  background-color: white !important;
+}
